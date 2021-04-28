@@ -1,0 +1,6 @@
+{
+  "scripts":{
+    "start":"node express_hello_world.js",
+    "test":"echo Error:notestspecified &&exit1"
+  }
+}
