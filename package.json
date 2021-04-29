@@ -1,6 +1,13 @@
 {
-  "scripts":{
-    "start":"node express_hello_world.js",
-    "test":"echo Error:notestspecified &&exit1"
+  "scripts": {
+    "start": "node express_hello_world.js",
+    "test": "echo Error:notestspecified",
+    "babel":"./node_modules/.bin/babelbrowser.jsdbuild/",
+
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.17.1"
   }
 }
